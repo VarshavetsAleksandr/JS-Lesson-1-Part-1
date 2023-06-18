@@ -590,3 +590,25 @@
 
 // const KEY_AUTHORIZATION = 'qwerty111';
 // console.log(KEY_AUTHORIZATION);
+
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = subType === "vip" || subType === "pro"; // Change this line
+//     console.log(canAccessContent);
+//   return canAccessContent;
+// }
+// checkIfCanAccessContent("pro");
+// checkIfCanAccessContent("starter");
+// checkIfCanAccessContent("vip");
+// checkIfCanAccessContent("free");
+
+// function isNumberNotInRange(start, end, number) {
+//     const isInRange = number >= start && number <= end;
+//     const isNotInRange = !isInRange; // Change this line
+//     console.log(isInRange);
+//     console.log(isNotInRange);
+//   return isNotInRange;
+// }
+// isNumberNotInRange(10, 30, 17);
+// isNumberNotInRange(10, 30, 5);
+// isNumberNotInRange(20, 50, 24);
+// isNumberNotInRange(20, 50, 76);
